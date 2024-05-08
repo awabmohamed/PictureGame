@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Picture Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Welcome to Remeber the picture!</h1>
+    <p>
+      Rules: select a difficulty below and match each picture with its copy on
+      order to win the game before the time runs out! good luck!.
+    </p>
+    <p>Choose the difficulty level:</p>
+    <input type="radio" id="level8" name="level" value="8" />
+    <label for="level8">8 Pictures</label>
+    <input type="radio" id="level10" name="level" value="10" />
+    <label for="level10">10 Pictures</label>
+    <input type="radio" id="level12" name="level" value="12" />
+    <label for="level12">12 Pictures</label>
+    <button id="startBtn">Start Game</button>
+    <div id="gameBoard" class="game-board"></div>
+    <div id="timer">
+      <span id="timerLabel"></span>
+      <span id="timerValue"></span>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
