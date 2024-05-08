@@ -1,17 +1,17 @@
 // Array to store the pictures
 var picturesArray = [
-    '1.gif',
-    '2.gif',
-    '3.gif',
-    '4.gif',
-    '5.gif',
-    '6.gif',
-    '7.gif',
-    '8.gif',
-    '9.jpg',
-    '10.png',
-    '11.png',
-    '12.jpg'
+    'images/1.gif',
+    'images/2.gif',
+    'images/3.gif',
+    'images/4.gif',
+    'images/5.gif',
+    'images/6.gif',
+    'images/7.gif',
+    'images/8.gif',
+    'images/9.jpg',
+    'images/10.png',
+    'images/11.png',
+    'images/12.jpg'
   ];
   
   var selectedLevel = 0; // Selected difficulty level
